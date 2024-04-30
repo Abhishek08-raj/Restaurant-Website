@@ -26,13 +26,7 @@ let products = [
         image: '2.PNG',
         price: 120
     },
-    // {
-    //     id: 3,
-    //     name: 'PRODUCT NAME 3',
-    //     image: 'Tandoori-Chicken-720x540.jpg.webp',
-    //     price: 120
-    // },
-    
+   
     {
         id: 3,
         name: 'PRODUCT NAME 4',
