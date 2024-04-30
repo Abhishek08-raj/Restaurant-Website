@@ -26,45 +26,45 @@ let products = [
         image: '2.PNG',
         price: 120
     },
-    {
-        id: 3,
-        name: 'PRODUCT NAME 3',
-        image: 'Tandoori-Chicken-720x540.jpg.webp',
-        price: 120
-    },
+    // {
+    //     id: 3,
+    //     name: 'PRODUCT NAME 3',
+    //     image: 'Tandoori-Chicken-720x540.jpg.webp',
+    //     price: 120
+    // },
     
     {
-        id: 4,
+        id: 3,
         name: 'PRODUCT NAME 4',
         image: 'Korma-768x513.jpg.webp',
         price: 120
     },
     {
-        id: 5,
+        id: 4,
         name: 'PRODUCT NAME 5',
         image: 'Madras-Curry.jpg.webp',
         price: 120
     },
     {
-        id: 6,
+        id:5,
         name: 'PRODUCT NAME 6',
         image: 'chicken-makhani-768x510.jpg.webp',
         price: 120
     },
     {
-        id: 7,
+        id: 6,
         name: 'PRODUCT NAME 7',
         image: 'Papadam-768x768.jpg.webp',
         price: 120
     },
     {
-        id: 8,
+        id: 7,
         name: 'PRODUCT NAME 8',
         image: '4.PNG',
         price: 120
     },
     {
-        id: 9,
+        id: 8,
         name: 'PRODUCT NAME 9',
         image: '6.PNG',
         price: 120
