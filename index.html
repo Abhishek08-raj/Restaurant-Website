@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eat&Run</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="img/favicon.ico" rel="icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style3.css">
+  <style>
+ /* Font */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+/* Variables */
+
+
+  </style>
+
+</head>
+
+<body>
+    
+  <nav class="nav">
+    <div class="nav-logo">
+        <p>Eat&Run</p>
+    </div>
+    <div class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="index.html" class="link active">Home</a></li>
+            <li><a href="addtocart.html" class="link">Menu</a></li>
+            <li><a href="reservation.html" class="link">Reservation</a></li>
+            <li><a href="contact.html" class="link">Contact US</a></li>
+        </ul>
+    </div>
+    <div class="nav-button">
+        <a href="sin+up.html"><button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button></a>
+        <a href="sin+up.html"><button class="btn" id="registerBtn" onclick="register()">Sign Up</button></a>
+    </div>
+    <div class="nav-menu-btn">
+        <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+    </div>
+</nav>
+  
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./pexels-pixabay-262047.jpg" class="d-block w-100"  style="height: 800px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Welcome to Eat&Run </h3>
+          <button class="btn btn-primary"><a href="addtocart.html">Breakfast</a></button>
+         
+
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item" >
+        <img src="./pexels-weekendplayer-735869.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>I am Hungry</h3>
+          <button class="btn btn-danger"><a href="addtocart.html">Lunch</a></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./pexels-chanwalrus-958545.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Looking delicious</h3>
+          <button class="btn btn-success"><a href="addtocart.html">Dinner</a></button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" ></span>
+    </a>
+  </div>
+  <br><br><br><br>
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="setion-title text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <h1><u>About Us</u></h1>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+<div class="container">
+  <div class="row featurette d-flex justify-content-center align-items-center">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">Our Story <span class="text-body-secondary"></span></h2>
+      <p class="lead">Established in 1998, Eat&Run was born out of a passion for food and a commitment to excellence. Our founder, "Abhishek Bhardwaj", envisioned a place where people could come together to savor delicious flavors, celebrate special moments, and create lasting memories. What started as a humble eatery has now blossomed into a beloved dining destination, cherished by locals and visitors alike.</p>
+    </div>
+    <div class="col-md-5">
+<img src="./th (5).jpeg" alt="">    
+</div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+
+<div class="conatainer ">
+  <div class="row featurette  d-flex justify-content-center align-items-center">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">Our Philosophy <span class="text-body-secondary"></span></h2>
+      <p class="lead">At Eat&Run, we believe in the power of fresh, high-quality ingredients, sourced locally whenever possible. Our culinary team, led by Executive Chef "Sanji", is dedicated to crafting dishes that showcase the best of seasonal produce, sustainable seafood, and artisanal meats. Each recipe is thoughtfully created, combining traditional techniques with modern twists to deliver flavors that tantalize the taste buds..</p>
+    </div>
+    <div class="col-2">
+      <img src="./th (6).jpeg" alt="">
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="setion-title text-center">
+              <h1><u>Services</u></h1>
+              <div class="line"></div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+<div class="container">
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+           <img class="bd-placeholder-img card-img-top" width="69%" height="300" src="./call-center-7040784_640.png" alt=""> 
+            <div class="card-body">
+              <p class="card-text" style="transition: transform .25s;"><b>Online Order and 24/7 Service</b> </p>
+              <p> delivery service availaible along  with our customer support any time . </p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="69%" height="300" src="./tray.png" alt="">           
+             <div class="card-body">
+              <p class="card-text"><b>Quality Food</b></p>
+              <p>Dishes made with finnest and best Ingridient from the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="69%" height="300" src="./vecteezy_master-chef-illustration-design-vector_19781580.jpg" alt="">           
+            <div class="card-body">
+              <p class="card-text"><b>Master chefs</b></p>
+                <p>Restaurent with World's best masterchefs with more than 10 years experience. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="setion-title text-center">
+              <h1><u>Menu</u></h1>
+              <div class="line"></div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+  <div class="row g-2">
+      <div class="col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="project">
+              <img src="./Beef-Biryani-720x540.jpg.webp" alt="">
+              <div class="content">
+                  <a href="addtocart.html" data-fancybox="gallery" class="btn btn-outline-light">View Menu</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="project">
+              <img src="./Rogan-Josh-720x540.jpg.webp" alt="">
+              <div class="content">
+                  <a href="addtocart.html" data-fancybox="gallery" class="btn btn-outline-light">View Menu</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="project">
+              <img src="./Dosa-Indian-Food-720x540.jpg.webp" alt="">
+              <div class="content">
+                  <a href="addtocart.html" data-fancybox="gallery" class="btn btn-outline-light">View Menu</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="project">
+              <img src="./Indian-Food-Mutter-Paneer-720x540.jpg.webp" alt="">
+              <div class="content">
+                  <a href="addtocart.html" data-fancybox="gallery" class="btn btn-outline-light">View Menu</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="project">
+              <img src="./Tandoori-Chicken-720x540.jpg.webp" alt="">
+              <div class="content">
+                  <a href="addtocart.html" data-fancybox="gallery" class="btn btn-outline-light">View Menu</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="project">
+              <img src="./Saag-Paneer-and-Rice-and-Lamb-Vindaloo-768x576.jpg.webp" alt="">
+              <div class="content">
+                  <a href="addtocart.html" data-fancybox="gallery" class="btn btn-outline-light">View Menu</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<section id="blog" class="section-padding ">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="setion-title text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                  <h1><u>Our Chefs</u></h1>
+                  <br>
+                  <div class="line"></div>
+              </div>
+          </div>
+      </div>
+      <div class="row gy-5">
+          <div class="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <div class="bp">
+                  <img src="./vecteezy_master-chef-illustration-design-vector_19781580.jpg" alt="">
+                  <div class="bp-content pt-4">
+                      <h4>Mr chef</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <a href="#" class="custom-link">
+                          <span>Read More</span>
+                          <i class="ri-arrow-right-line"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div class="bp">
+                  <img src="./vecteezy_master-chef-illustration-design-vector_19781580.jpg" alt="">
+                  <div class="bp-content pt-4">
+                      <h4>Mr chef</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <a href="#" class="custom-link">
+                          <span>Read More</span>
+                          <i class="ri-arrow-right-line"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+              <div class="bp">
+                  <img src="./vecteezy_master-chef-illustration-design-vector_19781580.jpg" alt="">
+                  <div class="bp-content pt-4">
+                      <h4>Mr chef</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <a href="#" class="custom-link">
+                          <span>Read More</span>
+                          <i class="ri-arrow-right-line"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container-fluid  bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">     
+     <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-light">Company</h4>
+                  <ul>
+                      <li><a href="#" class="text-light">About us</a></li>
+                      <li><a href="#" class="text-light">Contact Us</a></li>
+                      <li><a href="#" class="text-light">Reservation</a></li>
+                      <li><a href="#" class="text-light">Privacy Policy</a></li>
+                      <li><a href="#" class="text-light">Terms & Conditions</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-light">Contact</h4>
+                  <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, JALANDHAR, INDIA</p>
+                  <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 0000000000</p>
+                  <p class="mb-2"><i class="fa fa-envelope me-3"></i>Eat&Run@gmail.com</p>
+                  <div class="d-flex pt-2">
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-light">Opening</h4>
+                  <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                  <p>09AM - 09PM</p>
+                  <h5 class="text-light fw-normal">Sunday</h5>
+                  <p>10AM - 08PM</p>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-light">Newsletter</h4>
+                  <p>Subscribe to our newsletter to receive exclusive updates, special offers, and the latest news from Eat&Run. Be the first to know about upcoming events, seasonal menus, and more!</p>
+                  <div class="position-relative mx-auto" style="max-width: 400px;">
+                      <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                      <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="copyright">
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      &copy; <a class="border-bottom" href="#">Your Website</a> | All Right Reserved.
+                  </div>
+                  <div class="col-md-6 text-center text-md-end">
+                      <div class="footer-menu text-light">
+                          <a href="#" class="text-light">Home</a>
+                          <a href="#" class="text-light">Cookies</a>
+                          <a href="#" class="text-light">Help</a>
+                          <a href="#" class="text-light">FAQs</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./pexels-trace-hudson-2529973.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+section {
+  position: relative;
+  z-index: 3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-header h2 {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.section-header p {
+  color: #FFF;
+}
+
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-info {
+  width: 50%;
+}
+
+.contact-info-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact-info-icon {
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.contact-info-icon i {
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.contact-info-content {
+  margin-left: 20px;
+}
+
+.contact-info-content h4 {
+  color: #1da9c0;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.contact-info-content p {
+  color: #FFF;
+  font-size: 1em;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 40px;
+  width: 45%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contact-form h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contact-form .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  
+  color: #666;
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box textarea:focus ~ span{
+  color: #e91e63;
+  font-size: 12px;
+  
+}
+
+.contact-form .input-box input[type="submit"]
+{
+  width: 100%;
+  background: #00bcd4;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #00bcd4;
+  
+}
+
+.contact-form .input-box input[type="submit"]:hover
+{
+  background: #FFF;
+  color: #00bcd4;
+}
+
+@media (max-width: 991px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .row {
+    flex-direction: column;
+  }
+  
+  .contact-info {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .contact-form {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+  
+    <section>
+        <div class="section-header">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question, comment, or suggestion? We'd love to hear from you! Get in touch with us using the information below or fill out the contact form, and we'll get back to you as soon as possible.</p>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-content">
+                  <ul >
+                    <li>
+                      <h4>Address</h4>
+                  <p> 123 Street,JALANDHAR, INDIA</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-content">
+                  <ul>
+                    <li>
+                      <h4>Phone</h4>
+                  <p>+91 0000000000</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-content">
+                  <ul>
+                    <li>
+                      <h4>Email</h4>
+                      <p>Eat&Run@gmail.com</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-form">
+              <form action="" id="contact-form">
+                <h2>Send Message</h2>
+                <div class="input-box">
+                  <label for="Name">Name</label>
+                  <input type="text" required="true" name="Name" value="">
+                </div>
+                
+                <div class="input-box">
+                  <label for="Email">Email</label>
+                  <input type="email" required="true" name="Email">
+                </div>
+                
+                <div class="input-box">
+                  <label for="message">Type your text.....</label>
+                  <textarea required="true" name="message"></textarea>
+                  
+                </div>
+                
+                <div class="input-box">
+                  <input type="submit" value="Send" name="">
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+</body>
+</html>
