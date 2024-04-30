@@ -29,7 +29,7 @@ let products = [
     {
         id: 3,
         name: 'PRODUCT NAME 3',
-        image: 'Dosa-Indian-Food-720x540.jpg.webp',
+        image: 'Tandoori-Chicken-720x540.jpg.webp',
         price: 120
     },
     
